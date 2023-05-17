@@ -138,7 +138,8 @@ You can’t use http://localhost:9090 as your HTTP URL because Grafana won’t h
 Use the file named expose_prometheus.
 
 Run  
-```bash kubectl apply -f expose_prometheus.yaml 
+```bash 
+kubectl apply -f expose_prometheus.yaml 
 ``` 
 Grafana will be able to pull the metrics 
 ---
